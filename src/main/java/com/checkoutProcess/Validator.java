@@ -10,17 +10,17 @@ public class Validator {
 	}
 
 	public int calculateAsValue(int a) {
-		return calculateValueAsPerSKU(a, Constants.three, Constants.threeAs,Constants.A);
+		return calculateValueAsPerSKU(a, Constants.three, Constants.threeTimesA,Constants.A);
 
 	}
 
 	public int calculateBsValue(int b) {
-		return calculateValueAsPerSKU(b, Constants.two, Constants.twoBs, Constants.B);
+		return calculateValueAsPerSKU(b, Constants.two, Constants.twoTimesB, Constants.B);
 	}
 
 	public int calculateCandDsValue(int c, int d) {
-		int max = (c > d) ? (((c - d) * Constants.C) + d * Constants.cPlusD)
-				: (((d - c) * Constants.D) + c * Constants.cPlusD);
+		int max = (c > d) ? (((c - d) * Constants.C) + d * Constants.combinationOfCandD)
+				: (((d - c) * Constants.D) + c * Constants.combinationOfCandD);
 		System.out.println("max"+max);
 		return max;
 

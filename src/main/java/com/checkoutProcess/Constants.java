@@ -6,12 +6,11 @@ public class Constants {
 	static int C =20;
 	static int D =15;
 	
-	static int threeAs = 130;
-	static int twoBs = 45;
-	static int cPlusD = 30;
+	static int threeTimesA = 130;
+	static int twoTimesB = 45;
+	static int combinationOfCandD = 30;
 	
 	static int three = 3;
-	
 	static int two = 2;
 			
 
