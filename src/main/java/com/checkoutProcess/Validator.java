@@ -31,7 +31,7 @@ public class Validator {
 			System.out.println("valueAfterCalculation");
 			int singleUnit = b - ((b / count) * count);
 			int coupleUnit = b / count;
-			int valueAfterCalculation = ((singleUnit * promotionsValue) + (coupleUnit * promotionsValue));
+			int valueAfterCalculation = ((singleUnit * singleValue) + (coupleUnit * promotionsValue));
 			System.out.println("valueAfterCalculation"+valueAfterCalculation);
 			return valueAfterCalculation;
 		} else {
